@@ -33,10 +33,10 @@ class Database extends Config
     public $default = [
         'DSN'      => '',
         'hostname' => 'localhost',
-        'username' => '',
+        'username' => 'root',
         'password' => '',
-        'database' => '',
-        'DBDriver' => 'MySQLi',
+        'database' => 'monitoringanggaran',
+        'DBDriver' => 'pdo',
         'DBPrefix' => '',
         'pConnect' => false,
         'DBDebug'  => (ENVIRONMENT !== 'production'),
