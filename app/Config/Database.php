@@ -31,7 +31,7 @@ class Database extends Config
      * @var array
      */
     public $default = [
-        'DSN'      => '',
+        'DSN'      => 'MySQLi://root:@localhost:3306/monitoringanggaran?charset=utf8&DBCollat=utf8_general_ci',
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
